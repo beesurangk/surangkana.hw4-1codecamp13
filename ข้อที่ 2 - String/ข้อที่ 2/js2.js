@@ -1,0 +1,7 @@
+let str = prompt("Enter string : ");
+
+function ucFirst(str) {
+  return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
+console.log(ucFirst(str));
